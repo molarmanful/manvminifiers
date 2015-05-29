@@ -1,6 +1,6 @@
 # Man vs. Minifiers
 Competing against minifiers to see who can save the most bytes.
-## Code
+## Original Code
 The original code is found at original.js. It is a spigot algorithm that prints out digits of Pi.
 ## Rankings
 1. Man (Me): 223 bytes
