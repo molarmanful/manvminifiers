@@ -1,1 +1,1 @@
-
+function c(o){for(var r=14*(o/4+1),f="",t=[],e=0,h=r,n=0,l=0,a=1e4,u=0,c=0;t.length!==r;t.push(0));for(;(e=h-=14)>0;){for(;--e>0;)n*=e,n+=0===c?2e3*a:t[e]*a,u=e+e-1,t[e]=(n%u+u)%u,n=Math.floor(n/u);c=Math.floor(l+n/a),f+=c,c=c.length,n=l=(n%a+a)%a}return f}
