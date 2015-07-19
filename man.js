@@ -1,1 +1,1 @@
-function c(d){for(l=(d/4+1)*14,o='',a=[],b=d=e=g=h=0,c=l,f=1e4;a.length^l;a.push(0))for(;(b=c-=14)>0;){for(;--b>0;)d=d*b+(h==0?2e3:a[b])*f,g=b+b-1,a[b]=(d%g+g)%g,d=0|d/g;h=0|e+d/f,o+=h,h=h.length,d=e=(d%f+f)%f}return o}
+function c(d){for(l=(d/4+1)*14,o='',a=[],b=d=e=g=h=0,c=l,f=1e4;a.length^l;a.push(0))for(;b=c-=14;)for(;--b>0;)d=d*b+(h==0?2e3:a[b])*f,g=b+b-1,a[b]=(d%g+g)%g,d=0|d/g,h=0|e+d/f,o+=h,h=h.length,d=e=(d%f+f)%f;return o}
